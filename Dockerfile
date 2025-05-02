@@ -1,5 +1,5 @@
-# Use the official Nginx image for ARM64 architecture
-FROM --platform=linux/arm64 nginx:alpine
+# Use the official Nginx image
+FROM nginx:alpine
 
 # Remove the default nginx index page
 RUN rm -f /usr/share/nginx/html/*
